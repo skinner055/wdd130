@@ -1,0 +1,38 @@
+body {
+    background-color: #463730;
+    margin: 0;
+    padding: 0;
+}
+p {
+    color: #759FBC;
+}
+h1, h2, h3 {
+    color: #90C3C8;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+a {
+    color: #B9B8D3;
+    text-decoration: none;
+}
+#wrapper {
+    background-color: #1F5673;
+    width: 900px;
+    height: 800px;
+    margin: auto;
+    border: 3px solid #B9B8D3;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+}
+footer {
+    margin-top: auto;
+    text-align: center;
+}
+
+#weeks {
+    border: 3px solid #B9B8D3;
+    border-radius: 10px;
+}

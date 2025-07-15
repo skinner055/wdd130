@@ -1,0 +1,92 @@
+body {
+    background-color: #463730;
+}
+p {
+    color: #759FBC;
+}
+h1, h2, h3 {
+    color: #90C3C8;
+}
+a {
+    color: #B9B8D3;
+}
+
+#wrapper {
+    background-color: #1F5673;
+    width: 80%;
+    margin: auto;
+    border: 3px solid #B9B8D3;
+    border-radius: 10px;
+}
+
+header {
+    background-image: url("../images/fancyBackground.png");
+    background-position: 0 200px;
+    background-repeat: repeat;
+    /* background: #2f4f4f; */
+    padding: 30px;
+}
+
+header img {
+    width: 100px;
+}
+
+header h1 {
+    display: inline;
+    float: right;
+    margin-right: 20px;
+}
+
+nav {
+    background: black;
+    width: 100%;
+    border-bottom: 5px solid #B9B8D3;
+    border-top: 5px solid #B9B8D3;
+    box-sizing: border-box;
+    display: flex;
+    height: 50px;
+    justify-content: space-evenly;
+}
+
+nav a {
+    font-size: 1.5em;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+}
+
+nav a:hover {
+    background: #759FBC;
+    text-shadow: 4px 4px 4px black;
+}
+
+footer form {
+    background: #2f4f4f;
+    width: 150px;
+    height: 250px;
+    padding: 10px;
+    border: 3px solid #B9B8D3;
+    position: fixed;
+    bottom: 0;
+    right: 20px;
+    border-radius: 10px;
+    color: white;
+}
+section {
+    border: 3px solid #B9B8D3;
+    background: #2f4f4f;
+    width: 30%;
+    float: left;
+    padding: 0 30px;
+    box-sizing: border-box;
+    margin: 20px 14px;
+}
+
+section img {
+    width: 200px;
+}
+
+table {
+    clear: both;
+}
